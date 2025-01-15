@@ -1,0 +1,20 @@
+{
+    "packages": [
+        {
+            "name": "background",
+            "version": "0.0.1",
+            "url": {
+                "Windows": "https://github.com/argonorg/backgroundsetter/releases/latest/download/background.exe"
+            },
+            "description": "Set up a radon themed wallpaper",
+            "sha256": {
+                "Windows": "d079ce28f0b7fae10a5a1db36587071037ebe5e72a140b9ab71e3510be092300"
+            },
+            "requirepath": false,
+            "shortcut": true,
+            "os": [
+                "Windows"
+            ]
+        }
+    ]
+}
