@@ -4,27 +4,11 @@
             "name": "background",
             "version": "0.0.1",
             "url": {
-                "Windows": "https://github.com/radonorg/backgroundsetter/releases/latest/download/background.exe"
+                "Windows": "https://github.com/argonorg/backgroundsetter/releases/latest/download/background.exe"
             },
             "description": "Set up a radon themed wallpaper",
             "sha256": {
                 "Windows": "1e895331c24a91e0096cd9644fc2b06aa7708f14406c1be5f7bd5076af14a7db"
-            },
-            "requirepath": false,
-            "shortcut": true,
-            "os": [
-                "Windows"
-            ]
-        },
-        {
-            "name": "shell",
-            "version": "0.0.1",
-            "url": {
-                "Windows": "https://github.com/radonorg/shell/releases/latest/download/shell.exe"
-            },
-            "description": "just a shell to bypass the cmd block on some organization controlled laptops",
-            "sha256": {
-                "Windows": "f085506540f62d27898b727a9f8c7c0ec8e34d78b6da06f76a1c8fec32629393"
             },
             "requirepath": false,
             "shortcut": true,

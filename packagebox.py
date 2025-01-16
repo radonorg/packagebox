@@ -89,7 +89,7 @@ def ensure_packages_file():
             handle_error(f"Failed to download package list: {e}")
 
 def update_packages():
-    default_update_url = "https://raw.githubusercontent.com/radonorg/toolbox/main/packages.json"
+    default_update_url = "https://raw.githubusercontent.com/radonorg/packagebox/main/packages.json"
     try:
         with open(get_json_path(), 'r') as f:
             data = json.load(f)
@@ -144,7 +144,7 @@ def create_shortcut(target, shortcut_name):
         else:
             os.symlink(target, Path.home() / "Desktop" / f"{shortcut_name}.app")
     except Exception:
-        handle_warning(f"Could not create a shortcut for '{shortcut_name}'. This will not affect the installation.")
+        handle_warning(f"Could not create a shortcut for '{shortcut_name}'. This will NOT affect the installation.")
 
 def install_package(package_name, skip_confirmation):
     try:

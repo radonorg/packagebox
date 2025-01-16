@@ -1,3 +1,3 @@
 @echo off
-nuitka --onefile --standalone --output-dir=dist packagebox.py
+pyinstaller --onefile --clean packagebox.py
 pause
