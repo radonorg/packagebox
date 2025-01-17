@@ -31,6 +31,22 @@
             "os": [
                 "Windows"
             ]
+        },
+        {
+            "name": "packagebox",
+            "version": "0.0.2",
+            "url": {
+                "Windows": "https://github.com/radonorg/radoneditor/releases/latest/download/editor.exe"
+            },
+            "description": "the package installer of the radonteam",
+            "sha256": {
+                "Windows": "5b9bcb42b496845c4f03051fe426116ac3a534323fb68379388c319574fea4e2"
+            },
+            "requirepath": true,
+            "shortcut": false,
+            "os": [
+                "Windows"
+            ]
         }
     ]
 }
