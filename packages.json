@@ -26,7 +26,7 @@
             "sha256": {
                 "Windows": "9e611ee2f07f9841e92e5c4b3f0e327534105ed2bdc431b08482133c166284d8"
             },
-            "requirepath": false,
+            "requirepath": true,
             "shortcut": false,
             "os": [
                 "Windows"
