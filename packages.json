@@ -4,7 +4,7 @@
             "name": "background",
             "version": "0.0.1",
             "url": {
-                "Windows": "https://github.com/argonorg/backgroundsetter/releases/latest/download/background.exe"
+                "Windows": "https://github.com/radonorg/backgroundsetter/releases/latest/download/background.exe"
             },
             "description": "Set up a radon themed wallpaper",
             "sha256": {
@@ -12,6 +12,22 @@
             },
             "requirepath": false,
             "shortcut": true,
+            "os": [
+                "Windows"
+            ]
+        }
+        {
+            "name": "editor",
+            "version": "0.0.1",
+            "url": {
+                "Windows": "https://github.com/radonorg/radoneditor/releases/latest/download/editor.exe"
+            },
+            "description": "A python text editor in your terminal"
+            "sha256": {
+                "Windows"; "9e611ee2f07f9841e92e5c4b3f0e327534105ed2bdc431b08482133c166284d8"
+            },
+            "requirepath": false,
+            "shortcut": "false",
             "os": [
                 "Windows"
             ]
